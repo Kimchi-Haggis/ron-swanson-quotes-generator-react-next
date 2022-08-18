@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
+import ToggleTheme from '@components/toggleDarkMode/ToggleTheme';
 import type { NextPage } from 'next'
 import { useState } from 'react';
 
@@ -44,6 +45,7 @@ const Home: NextPage = () => {
 
         </div>
       </div>
+      <ToggleTheme />
     </div>
   )
 }
