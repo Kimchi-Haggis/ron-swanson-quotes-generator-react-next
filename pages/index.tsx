@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       <div className='box-contents'>
         <div className='box-item'>
           <div className='box-item-head border-b-2 border-black dark:border-white'>
-            I'M RON FUCKING SWANSON
+            I&apos;M RON FUCKING SWANSON
           </div>
           <div className='box-border text-center font-extrabold'>
             <img 
