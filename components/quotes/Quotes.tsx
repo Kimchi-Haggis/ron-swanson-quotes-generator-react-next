@@ -10,7 +10,7 @@ const Quotes = () => {
       try {
         const response = await axios.get(url);
         setData(response.data)
-        setBtn("GIVE ME ANOTER")
+        setBtn("GIVE ME ANOTHER")
         console.log(response.data);
       } catch (error) {
         console.error("error");
