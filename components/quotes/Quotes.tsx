@@ -24,7 +24,7 @@ const Quotes = () => {
         >
             {btn}
         </button>
-        <div className='box-item-head'>
+        <div className='py-6 text-lg md:text-2xl lg:text-4xl'>
             {data}
         </div>
     </div>

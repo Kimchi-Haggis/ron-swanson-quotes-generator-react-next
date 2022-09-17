@@ -7,11 +7,11 @@ import type { NextPage } from 'next'
 const Home: NextPage = () => {
 
   return (
-    <div className='box-section bg-white dark:bg-black py-10'>
+    <div className='box-section bg-white dark:bg-black py-1'>
       <div className='box-contents'>
         <div className='box-item'>
           <div className='box-item-head border-b-2 border-black dark:border-white'>
-            I&apos;M RON FUCKING SWANSON
+            I&apos;M RON F**KING SWANSON
           </div>
           <div className='box-border text-center font-extrabold'>
             <img 
